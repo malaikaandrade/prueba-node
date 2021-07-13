@@ -1,0 +1,16 @@
+Last login: Tue Jul 13 14:15:41 on ttys001
+malaika@MacBook-Air-de-Malaika primerRepositorio % git init
+Initialized empty Git repository in /Users/malaika/Documents/primerRepositorio/.git/
+malaika@MacBook-Air-de-Malaika primerRepositorio % ls -a
+.	..	.git
+
+// lo que le estas diciendo aqui es con que repositorio local quieres conectar tu repositorio remoto
+//Repositorio local: es el que tiene todos los archivos (que hayas guardado en él) en nuestra computadora.
+// commits : paquetes que nos van a permitir ir haciendo un seguimiento de los cambios que vamos realizando, dado que cada uno de ellos tiene una timestamp, o fecha de creación, y un autor. Los commits van a ser nuestro historial de cambios que se fueron haciendo en el proyecto.
+
+//esto lo copiamos del repositorio que acabamos de crear
+malaika@MacBook-Air-de-Malaika primerRepositorio % git remote add origin https://github.com/malaikaandrade/prueba-node.git
+malaika@MacBook-Air-de-Malaika primerRepositorio % git remote -v
+origin	https://github.com/malaikaandrade/prueba-node.git (fetch)
+origin	https://github.com/malaikaandrade/prueba-node.git (push)
+malaika@MacBook-Air-de-Malaika primerRepositorio % 
